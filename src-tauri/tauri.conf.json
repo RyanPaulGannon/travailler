@@ -7,7 +7,7 @@
         "withGlobalTauri": false
     },
     "package": {
-        "productName": "travailler",
+        "productName": "Travailler",
         "version": "0.0.0"
     },
     "tauri": {

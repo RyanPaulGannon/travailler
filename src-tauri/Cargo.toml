@@ -1,5 +1,5 @@
 [package]
-name = "tauri-upwork"
+name = "travailler"
 version = "0.0.0"
 description = "A Tauri App"
 authors = ["you"]

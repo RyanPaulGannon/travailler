@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Timer from './components/Timer.vue'
 import RegisterInterest from './components/RegisterInterest.vue'
 </script>
 
@@ -12,9 +13,13 @@ import RegisterInterest from './components/RegisterInterest.vue'
             </a>
         </div>
 
-        <p>Visit our website to learn more, coming soon.</p>
+        <p class="text-red">Visit our website to learn more, coming soon.</p>
 
         <RegisterInterest />
+
+        <div class="container">
+            <Timer :is-running="true" />
+        </div>
     </div>
 </template>
 

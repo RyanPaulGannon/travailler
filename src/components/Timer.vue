@@ -45,5 +45,6 @@ watch(isRunning, (newValue) => {
 .timer {
     font-size: 2em;
     text-align: center;
+    margin-bottom: 10px;
 }
 </style>
